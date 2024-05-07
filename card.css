@@ -1,0 +1,48 @@
+*    {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.card--wrapper {
+  background: url(./asset/bg.avif) repeat center/ cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.about-me{
+    width:40%;
+    height:80%;
+    background-color: cadetblue;
+    border-radius: 10px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.about-me .logo{
+    margin-top: 10%;
+    margin-inline:  auto;
+    border-radius: 50%;
+    width: 50%;
+    border:5px solid #fff;
+}
+.logofb{
+    text-align: center;
+    margin-top:15px;
+    font-size:35px;
+};
+a i {color:mediumblue;}
+.text1,.text2{
+    text-align: center;
+}
+.more{
+    background-color: #e99c17!important;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    top:90%;
+    text-align: center;
+
+}
